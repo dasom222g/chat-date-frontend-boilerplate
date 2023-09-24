@@ -89,6 +89,7 @@ const UserInfo = () => {
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   placeholder="홍길동"
                   className="border placeholder-gray-400 focus:outline-none
                       focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
@@ -108,6 +109,7 @@ const UserInfo = () => {
                 <input
                   type="number"
                   id="age"
+                  name="age"
                   placeholder="20"
                   className="border placeholder-gray-400 focus:outline-none
                       focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
@@ -127,6 +129,7 @@ const UserInfo = () => {
                 <input
                   type="text"
                   id="mbti"
+                  name="mbti"
                   placeholder="ENTJ"
                   className="border placeholder-gray-400 focus:outline-none
                       focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
