@@ -25,14 +25,11 @@ const Chat = () => {
             <span className="inline-block px-4 py-3 text-sm rounded-xl text-left bg-date-blue-600 text-white rounded-tr-none">
               Hello
             </span>
-            <span className="block text-right text-date-gray-400 text-xs mt-2 px-2">
-              09:25 AM
-            </span>
           </div>
           {/* END:user 채팅 */}
           {/* START:assistant 채팅 */}
           <div className="py-4 max-w-3/4 flex">
-            <div className="w-10 h-10 bg-date-blue-500 rounded-full">
+            <div className="min-w-10 h-10 bg-date-blue-500 rounded-full">
               <img src="./images/female.svg" alt="" />
             </div>
             <div className="pl-3">
